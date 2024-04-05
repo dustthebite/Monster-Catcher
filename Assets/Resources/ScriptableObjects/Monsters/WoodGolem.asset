@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9832522fb7a1f804e80f2e946fc2f90e, type: 3}
+  m_Name: WoodGolem
+  m_EditorClassIdentifier: 
+  PrefabPath: 
+  sprite: {fileID: 21300000, guid: 35524c24ea76d4325a4c0050cdb7b755, type: 3}
+  type: 12
+  element: 2
+  description: Wood golem
+  maxHp: 115
+  maxSp: 115
+  attackDamage: 35
+  firstLevelAbilityName: LightWoodSpell
+  firstLevelAbilityCost: 15
+  secondLevelAbilityName: LightWoodArmor
+  secondLevelAbilityCost: 20
+  expNeededForSecondLevelAbility: 100
+  thirdLevelAbilityName: MediumWoodSpell
+  thirdLevelAbilityCost: 25
+  expNeededForThirdLevelAbility: 200

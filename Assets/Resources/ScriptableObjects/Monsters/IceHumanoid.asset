@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9832522fb7a1f804e80f2e946fc2f90e, type: 3}
+  m_Name: IceHumanoid
+  m_EditorClassIdentifier: 
+  PrefabPath: ScriptableObjects/Monsters/IceHumanoid
+  sprite: {fileID: 21300000, guid: 55e4cc73127044a0899256e75b69a843, type: 3}
+  type: 2
+  element: 0
+  description: Ice humanoid
+  maxHp: 75
+  maxSp: 115
+  attackDamage: 15
+  firstLevelAbilityName: LightIceSpell
+  firstLevelAbilityCost: 10
+  secondLevelAbilityName: LightIceArmor
+  secondLevelAbilityCost: 10
+  expNeededForSecondLevelAbility: 100
+  thirdLevelAbilityName: MediumIceSpell
+  thirdLevelAbilityCost: 10
+  expNeededForThirdLevelAbility: 200

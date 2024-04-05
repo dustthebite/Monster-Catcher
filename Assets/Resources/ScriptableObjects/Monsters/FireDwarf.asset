@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9832522fb7a1f804e80f2e946fc2f90e, type: 3}
+  m_Name: FireDwarf
+  m_EditorClassIdentifier: 
+  PrefabPath: 
+  sprite: {fileID: 21300000, guid: 3e5c3fc18c79a4519b1997930056e995, type: 3}
+  type: 7
+  element: 1
+  description: Fire Fiend
+  maxHp: 75
+  maxSp: 115
+  attackDamage: 40
+  firstLevelAbilityName: LightFireSpell
+  firstLevelAbilityCost: 15
+  secondLevelAbilityName: LightFireArmor
+  secondLevelAbilityCost: 20
+  expNeededForSecondLevelAbility: 100
+  thirdLevelAbilityName: MediumFireSpell
+  thirdLevelAbilityCost: 35
+  expNeededForThirdLevelAbility: 200
